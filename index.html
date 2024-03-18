@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #e5e5d9;
+        }
+
+        header {
+            background-color: #e3d3d3;
+            padding: 15px;
+        }
+
+        .logo {
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        header h1 {
+            float: right;
+        }
+
+        .menu {
+            display: flex;
+            /*desplegamos en una linea*/
+            background-color: #e3d3d3;
+            /*color de fondo*/
+            padding: 5px;
+            /*espacio entre la caja*/
+            float: right;
+            /*ubicacion en la derecha*/
+        }
+
+        /*.(nombre de la clase)*/
+        .menu a {
+            /* todos las etiquetas a dentro de menu*/
+            color: rgb(239, 156, 14);
+            /*color de la letra*/
+            text-align: center;
+            /*alineacion al centro*/
+            padding: 14px 16px;
+            /*color de la letra (arriba, derecha,abajo,izquierda)*/
+            text-decoration: none;
+            /*indicamos que no tiene decoracion*/
+        }
+
+        menu a:hover {
+            /*en el menu y cubra la etiqueta a cambia de color*/
+            background-color: #ddd;
+            /*indicamos el color*/
+        }
+
+        .contenido {
+            margin-top: 5px;
+            /*le damos espacio de margen (top=arriba,bot=abajo,rigth=derecha,left=izquierda)*/
+        }
+
+        #imagen {
+            /* para centrar imagen #id .class*/
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 300px;
+        }
+
+        .texto {
+            /* modifica la tipografia*/
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            /* modifica el tamaño de la letra*/
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>LA SOCIEDAD DE LA NIEVE</h1>
+    </header>
+    <nav class="menu">
+        <a href="#menu">ADAPTABILIDAD</a>
+        <a href="#suc">TOMA DECICIONES DIFISILES</a>
+        <a href="#ped">SACRIFICIO</a>
+        <a href="#con">LIDERAZGO COMPARTIDO</a>
+    </nav>
+    <main class="contenido">
+        <section>
+            <a name="menu"></a>
+            <h2>ADAPTABILIDAD</h2>
+            <p class="texto">
+                Los personajes aprenden a adaptarse a un entorno hostil y a encontrar recursos en condiciones adversas,
+                mostrando la importancia de ser flexibles y creativos en situaciones de supervivencia.
+            </p>
+
+            <img src="images.jpg" alt="" id="imagen" />
+
+            <p class="texto">
+
+            </p>
+          "<iframe width=" 750" height="422"
+                src="https://www.youtube.com/embed/rjBHugEYUog"
+                title="La SOCIEDAD de la NIEVE desde OTRA PERSPECTIVA | Relato y Reflexiones" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>"
+            ></iframe>
+            <p class="texto">
+
+            </p>
+            <p class="texto">
+
+            </p>
+            <p class="texto">
+
+            </p>
+            <p class="texto">
+
+            </p>
+        </section>
+        <section>
+            <a id="suc"></a>
+            <h2 class="texto">TOMA DECICIONES DIFISILES</h2>
+            <p class="texto">
+                Los personajes se enfrentan a decisiones morales y éticas difíciles, como recurrir al canibalismo para
+                sobrevivir. Esto plantea preguntas sobre la ética en situaciones extremas y muestra cómo las decisiones
+                difíciles pueden ser necesarias para garantizar la supervivencia del grupo.
+            </p>
+        </section>
+        <section>
+            <a id="ped"></a>
+            <h2 class="texto">SACRIFICIO</h2>
+            <p class="texto">
+                La película ilustra cómo el amor puede manifestarse a través del sacrificio por los seres queridos. Los
+                personajes están dispuestos a arriesgar sus propias vidas para salvar a otros, mostrando un amor
+                desinteresado y altruista
+            </p>
+        </section>
+        <section>
+            <a id="con"></a>
+            <h2 class="texto">LIDERAZGO COMPARTIDO</h2>
+            <p class="texto">
+                En ausencia de una autoridad centralizada, los sobrevivientes desarrollan un liderazgo compartido basado
+                en la confianza y el respeto mutuo, lo que les permite tomar decisiones colectivas y mantener la
+                cohesión del grupo.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p class="texto">Derechos Reservados</p>
+    </footer>
+</body>
+
+</html>
