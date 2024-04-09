@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 22px Simonson;
+    color: rgb(13, 120, 110);
+    background-color: rgb(28, 21, 21);
+}
+
+header h1 {
+    font-family: "Quicksand", sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.formu {
+    margin: 10px auto;
+    padding: 15px 60px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    background-color: rgb(4, 0, 255);
+    margin: 10px 0;
+    padding: 10px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: rgb(71, 132, 245);
+}
+input[type="reset"],
+input[type="button"] {
+    width: 100%;
+    background-color: rgb(3, 117, 3);
+    margin: 10px 0;
+    padding: 10px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: rgb(10, 197, 10);
+}
+@media only screen and (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font: normal 22px Simonson;
+        color: rgb(13, 120, 110);
+        background-color: rgb(28, 21, 21);
+    }
+    
+    header h1 {
+        font-family: "Quicksand", sans-serif;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .formu {
+        margin: 10px auto;
+        padding: 15px 60px;
+        width: 70%;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input[type="submit"],
+    input[type="button"] {
+        width: 100%;
+        background-color: rgb(4, 0, 255);
+        margin: 10px 0;
+        padding: 10px;
+        color: aliceblue;
+        border: 2px solid #ccc;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover,
+    input[type="button"]:hover {
+        background-color: rgb(71, 132, 245);
+    }
+    input[type="reset"],
+    input[type="button"] {
+        width: 100%;
+        background-color: rgb(3, 117, 3);
+        margin: 10px 0;
+        padding: 10px;
+        color: aliceblue;
+        border: 2px solid #ccc;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    
+    input[type="reset"]:hover,
+    input[type="button"]:hover {
+        background-color: rgb(10, 197, 10);
+    }
+}
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font: normal 22px Simonson;
+        color: rgb(13, 120, 110);
+        background-color: rgb(28, 21, 21);
+    }
+    
+    header h1 {
+        font-family: "Quicksand", sans-serif;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .formu {
+        margin: 10px auto;
+        padding: 15px 60px;
+        width: 70%;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input[type="submit"],
+    input[type="button"] {
+        width: 100%;
+        background-color: rgb(4, 0, 255);
+        margin: 10px 0;
+        padding: 10px;
+        color: aliceblue;
+        border: 2px solid #ccc;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover,
+    input[type="button"]:hover {
+        background-color: rgb(71, 132, 245);
+    }
+    input[type="reset"],
+    input[type="button"] {
+        width: 100%;
+        background-color: rgb(3, 117, 3);
+        margin: 10px 0;
+        padding: 10px;
+        color: aliceblue;
+        border: 2px solid #ccc;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    
+    input[type="reset"]:hover,
+    input[type="button"]:hover {
+        background-color: rgb(10, 197, 10);
+    }
+}
